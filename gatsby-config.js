@@ -49,7 +49,7 @@ module.exports = {
     education: [
       {
         name: 'Bachelor of Computer Science',
-        description: 'University of Waterloo, 2021',
+        description: 'University of Waterloo, April 2021',
         link: 'https://uwaterloo.ca',
       }
     ],
@@ -58,12 +58,20 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Python, Django, React, Java, Kotlin, JavaScript, C++, SQL, HTML, CSS',
+          'Python, Django, React + Redux, JavaScript/Typescript, PostgreSQL, HTML, CSS',
       },
       {
         name: 'Other',
         description:
-          'CI / CD, RESTful APIs, Agile methodologies, Git',
+          'AWS, Nginx, Docker, CI / CD, RESTful APIs, Agile methodologies, Git',
+      },
+    ],
+    certificates: [
+      {
+        name: 'Amazon Web Services Developer - Associate',
+        description:
+          '',
+        link: 'https://www.credly.com/badges/693d2a39-edbb-4031-a282-43fc0bc75894?source=linked_in_profile',
       },
     ],
   },

@@ -4,6 +4,8 @@ import Section from '../section';
 import SummaryItem from '../summary-item';
 
 const SectionSkills = ({ skills }) => {
+  if (!skills.length) return null;
+  
   return (
     <Section title="Skills">
       {skills.map((skill) => (

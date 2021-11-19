@@ -79,6 +79,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       experience: [SectionItem]
       education: [SectionItem]
       skills: [SectionItem]
+      certificates: [SectionItem]
     }
 
     type SectionItem {
@@ -97,7 +98,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       date: Date @dateformat
     }
-    
+
     type Fields {
       slug: String
     }
